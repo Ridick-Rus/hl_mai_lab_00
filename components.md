@@ -32,7 +32,7 @@ Rel(user, web_site, conference_site, "Регистрация, просмотр/�
 Rel(web_site, client_service, "Работа с пользователями", "localhost/person")
 Rel(client_service, db, "INSERT/SELECT/UPDATE", "SQL")
 
-Rel(web_site, blog_service, "Работа с блогами", "localhost/conf")
+Rel(web_site, blog_service, "Работа с чатами", "localhost/chat")
 Rel(blog_service, db, "INSERT/SELECT/UPDATE", "SQL")
 
 @enduml
